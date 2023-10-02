@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import React from "react";
 
 function Hero() {
   const [{ data: hero, error, status }, setHero] = useState({

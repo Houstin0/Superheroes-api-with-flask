@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useHistory } from "react-router";
+import React from "react";
 
 function HeroPowerForm() {
   const [heroes, setHeroes] = useState([]);
