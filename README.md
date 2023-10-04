@@ -1,11 +1,6 @@
 # Flask Code Challenge - Superheroes
 
-For this assessment, you'll be working on an API for tracking heroes and their
-superpowers.
-
-In this repo, there is a Flask application with some features built out. There
-is also a fully built React frontend application, so you can test if your API is
-working.
+This repository contains an API for tracking heroes and their superpowers and a React frontend application
 
 Your job is to build out the Flask API to add the functionality described in the
 deliverables below.

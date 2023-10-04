@@ -1,8 +1,9 @@
 {
   "name": "phase-4-rails-api-code-challenge-superheroes-client",
   "version": "0.1.0",
+  "homepage": "http://Houstin0.github.io/myapp",
   "private": true,
-  "proxy": "http://127.0.0.1:5000",
+  "proxy": "https://super-hero-restful-api.onrender.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
