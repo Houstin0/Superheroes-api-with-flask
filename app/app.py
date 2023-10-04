@@ -3,11 +3,12 @@
 from flask import Flask, make_response,jsonify,request
 from flask_migrate import Migrate
 from flask_restful import Resource,Api
+import os
 
 from models import db, Hero,Power,HeroPower
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgresql_superhero_db_user:CE2D0MbA15XPGz6T59n3FNmHozKnLnRE@dpg-ckefi76npffc73bm4m10-a.ohio-postgres.render.com/postgresql_superhero_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 migrate = Migrate(app, db)

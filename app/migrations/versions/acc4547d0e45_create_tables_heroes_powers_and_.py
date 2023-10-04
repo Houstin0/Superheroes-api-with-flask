@@ -1,8 +1,8 @@
 """create tables heroes, powers and heropowers
 
-Revision ID: 96cdf3bdbb5e
+Revision ID: acc4547d0e45
 Revises: 
-Create Date: 2023-10-04 08:44:17.477141
+Create Date: 2023-10-04 09:09:34.730041
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '96cdf3bdbb5e'
+revision = 'acc4547d0e45'
 down_revision = None
 branch_labels = None
 depends_on = None
