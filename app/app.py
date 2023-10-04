@@ -45,6 +45,8 @@ class Heroes(Resource):
 api.add_resource(Heroes,'/heroes')   
 
 class HeroByID(Resource):
+
+    
     def get (self,id):
         try:
             hero=Hero.query.filter_by(id=id).first()
